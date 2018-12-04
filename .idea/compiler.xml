@@ -7,7 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="common" />
-        <module name="manager" />
+        <module name="demo" />
+        <module name="manager-controller" />
+        <module name="manager-mapper" />
+        <module name="manager-pojo" />
+        <module name="manager-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
